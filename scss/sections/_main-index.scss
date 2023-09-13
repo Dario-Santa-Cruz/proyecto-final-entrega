@@ -1,0 +1,146 @@
+#main-index {
+  font-family: sans-serif;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.inicio h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  grid-area: inicio;
+  display: grid;
+  justify-items: center;
+}
+.inicio h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  grid-area: inicio;
+  display: grid;
+  justify-items: center;
+}
+.inicio div {
+  color: white;
+  background-color: #ce8740;
+  max-width: 1050px;
+  box-shadow: -3px 2px 13px 6px black;
+  border-radius: 15px;
+}
+
+.hero-pan h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  color: #532c04;
+}
+.content-pan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.hero-pan p {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.parrafo-txt {
+  text-align: center;
+}
+.grid-index {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "imag1 imag2"
+    "imag3 imag3";
+  width: 700px;
+  height: 700px;
+  background-color: #532c04;
+  margin: 50px auto;
+  border-radius: 15px;
+}
+.imagen-index {
+  margin: 10px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.imagen-index:hover {
+  box-shadow: -3px 2px 13px 6px black;
+  transition: all 0.3s;
+  transform: scale(1.03);
+}
+.imag1 {
+  grid-area: imag1;
+  background-image: url("../recursos/img-inicio1.jpg");
+}
+.imag2 {
+  grid-area: imag2;
+  background-image: url("../recursos/img-inicio2.jpg");
+}
+.imag3 {
+  grid-area: imag3;
+  background-image: url("../recursos/img-inicio3.jpg");
+}
+
+.content-img-productos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.productos h1 {
+  text-align: center;
+  color: #532c04;
+  margin-bottom: 2.5rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+.container-img a {
+  display: flex;
+  max-width: 400px;
+  align-content: center;
+  margin: auto;
+  flex-direction: column;
+}
+#main-index h1 {
+  margin: 20px 0;
+}
+
+#main-index .categoria {
+  background-color: #dd3333;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  padding: 5px 10px;
+  border-radius: 5px;
+  justify-items: center;
+}
+
+#main-index img {
+  margin: 30px 0;
+}
+.container-img img:hover {
+  display: flex;
+  margin: auto;
+  transition: all 0.3s;
+  transform: scale(1.03);
+}
+
+#main-index p {
+  margin: 20px 0;
+}
+
+
+
+
+

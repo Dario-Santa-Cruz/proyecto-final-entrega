@@ -1,0 +1,59 @@
+.main-nosotros {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  max-width: 1140px;
+  margin: auto;
+  background-color: peru;
+  p {
+    text-align: center;
+    font-size: 16px;
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eb841d;
+    color: white;
+    border-radius: 15px;
+  }
+  p:hover {
+    box-shadow: -3px 2px 13px 6px black;
+    transition: all 0.3s;
+    transform: scale(1.03);
+  }
+  h1 {
+    font-size: 30px;
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #532c04;
+    color: white;
+    border-radius: 15px;
+  }
+  h1:hover {
+    box-shadow: -3px 2px 13px 6px black;
+    transition: all 0.3s;
+    transform: scale(1.03);
+  }
+  h2 {
+    text-align: center;
+    font-size: 16px;
+    margin: 30px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(54, 100%, 35%);
+    color: white;
+    border-radius: 15px;
+  }
+  h2:hover {
+    transition: all 0.3s;
+    transform: scale(1.03);
+    box-shadow: -3px 2px 13px 6px black;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,30 @@
+.pagina {
+  background-color: #ce8740;
+}
+.header {
+  display: flex;
+  box-shadow: 1px 8px 10px 6px;
+  background-color: white;
+  div {
+    display: flex;
+    max-width: 900px;
+    max-height: 200vh;
+    margin: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  img {
+    width: 25%;
+  }
+  .navbar a {
+    font-size: 10 px;
+    color: black;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 30px;
+    border-radius: 20px;
+    .navbar-expand-lg {
+      text-decoration: none;
+    }
+  }
+}

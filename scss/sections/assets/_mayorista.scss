@@ -1,0 +1,36 @@
+// mayorista
+.titulo-mayo h1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    background-color: #532c04;
+    color: white;
+    max-width: 1140px;
+    border-radius: 15px;
+    margin: 50px auto;
+  }
+  
+  .titulo-mayo-2 h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+    background-color: #532c04;
+    color: white;
+    max-width: 1140px;
+    border-radius: 15px;
+    margin: 50px auto;
+  }
+  .container-mayorista {
+    display: flex;
+    margin: 30px auto;
+    width: 1140px;
+    font-size: 25px;
+    flex-direction: column-reverse;
+  }
+  .container-mayorista:hover{
+    box-shadow: -3px 2px 13px 6px black;
+    transition: all 0.3s;
+    transform: scale(1.03);
+  
+  }
+  

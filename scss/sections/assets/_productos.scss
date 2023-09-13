@@ -1,0 +1,75 @@
+// productos
+.pagina-producto {
+  background-color: #ce8740;
+  .titulo-1 {
+    text-transform: uppercase;
+    text-align: center;
+  
+    padding: 10px;
+    background-color: #532c04;
+    color: white;
+    max-width: 1140px;
+    border-radius: 15px;
+    margin: auto;
+    margin: 30px auto;
+  }
+  .titulo-2 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #532c04;
+    color: white;
+    max-width: 1140px;
+    border-radius: 15px;
+    margin: auto;
+  }
+}
+
+.grid-cotainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "imagen1 imagen2 imagen3"
+    "imagen4 imagen5 imagen6";
+  margin: 50px auto;
+  width: 600px;
+  height: 600px;
+  background-color: white;
+  box-shadow: -3px 2px 13px 6px black;
+  border-radius: 10px;
+  .imagen {
+    margin: 7px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+  }
+  .imagen:hover {
+    transition: all 0.3s;
+    transform: scale(1.03);
+  }
+  .imagen1 {
+    grid-area: imagen1;
+    background-image: url("../recursos/img1.jpg");
+  }
+  .imagen2 {
+    grid-area: imagen2;
+    background-image: url("../recursos/img2.jpg");
+  }
+  .imagen3 {
+    grid-area: imagen3;
+    background-image: url("../recursos/img3.jpg");
+  }
+  .imagen4 {
+    grid-area: imagen4;
+    background-image: url("../recursos/img4.jpg");
+  }
+  .imagen5 {
+    grid-area: imagen5;
+    background-image: url("../recursos/img5.jpg");
+  }
+  .imagen6 {
+    grid-area: imagen6;
+    background-image: url("../recursos/img6.jpg");
+  }
+}
+
