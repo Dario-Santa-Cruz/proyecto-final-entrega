@@ -44,40 +44,16 @@
     background-color: hsl(54, 100%, 35%);
     color: white;
     border-radius: 15px;
+    
   }
   h2:hover {
     transition: all 0.3s;
     transform: scale(1.03);
     box-shadow: -3px 2px 13px 6px black;
   }
-  
 }
-@media (max-width: 320px){
-.main-nosotros h1 {
-  text-align: center;
-  font-size: 15px;
-  width: 75vw;
-  border-radius: 5px;
-  margin-right: auto;
-  margin-top: 0;
-}
-  p {
-    border-radius: 5px;
-    text-align: center;
-    width: 75vw;
-  }
-  h2 {
-    border-radius: 5px;
-    text-align: center;
-    width: 75vw;
-  }
-  .footer .redes img {
-    width: 25%;
-    margin: 10px 10px 10px;
-    a img {
-      display: flex;
-      max-width: 25%;
-      margin-left: 100vw;
-    }
-}
-}
+
+
+
+
+
