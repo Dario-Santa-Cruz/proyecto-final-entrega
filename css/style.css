@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&family=Rubik+Iso&display=swap");
 .pagina {
-  background-color: #ce8740; }
+  background-color: #9b232f; }
 
 .header {
   display: flex;
@@ -176,7 +176,7 @@ h1, .h1 {
     border-radius: 2px; }
 
 .pagina-producto {
-  background-color: #ce8740; }
+  background-color: #9b232f; }
   .pagina-producto .titulo-1 {
     text-transform: uppercase;
     text-align: center;
@@ -316,7 +316,7 @@ h1, .h1 {
 
 /*MOBILE LAST*/
 /* 1 */
-@media (max-width: 800px) {
+@media (max-width: 320px) {
   .inicio h1, .inicio .h1 {
     font-size: 20px; }
   .grid-index {
