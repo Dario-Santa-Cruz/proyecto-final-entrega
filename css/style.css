@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;700&family=Rubik+Iso&display=swap");
+.estilo-texto, .main-nosotros .texto-3 {
+  color: darkgreen;
+  font-size: 20px;
+  text-decoration: underline; }
+
 .pagina {
   background-color: #9b232f; }
 
@@ -156,6 +161,45 @@ h1, .h1 {
 
 #main-index p {
   margin: 20px 0; }
+
+@media (max-width: 320px) {
+  .inicio h1, .inicio .h1 {
+    font-size: 20px; }
+  .grid-index {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 300px;
+    height: 300px;
+    grid-template-areas: "imag1 imag2" "imag3 imag3"; }
+  .footer .redes img {
+    width: 25%;
+    margin: 10px 10px 10px; }
+    .footer .redes img a img {
+      display: flex;
+      max-width: 25%;
+      margin-left: 100vw; }
+  .header img {
+    width: 25vw; }
+  .main-nosotros h1, .main-nosotros .h1 {
+    text-align: center;
+    font-size: 15px;
+    width: 75vw;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-top: 0; }
+    .main-nosotros h1 p, .main-nosotros .h1 p {
+      border-radius: 5px;
+      text-align: center;
+      width: 75vw; }
+    .main-nosotros h1 h2, .main-nosotros .h1 h2, .main-nosotros h1 .h2, .main-nosotros .h1 .h2 {
+      border-radius: 5px;
+      text-align: center;
+      width: 75vw; }
+  .grid-cotainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    grid-template-areas: "imagen1 imagen2" "imagen3 imagen4" "imagen5 imagen6"; } }
 
 .footer {
   background-color: #000000;

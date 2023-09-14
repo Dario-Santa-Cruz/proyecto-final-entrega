@@ -50,6 +50,11 @@
     transform: scale(1.03);
     box-shadow: -3px 2px 13px 6px black;
   }
+  .texto-3{
+    @extend .estilo-texto
+  }
+    
+  
 }
 
 
